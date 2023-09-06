@@ -23,7 +23,6 @@ export default function HistoryComponent({ navigation }) {
 
   return (
     <SafeAreaView>
-      <View style={styles.container}>
         <View style={styles.historyContainer}>
       <Text style={globalStyles.amount}>
             History
@@ -52,7 +51,6 @@ export default function HistoryComponent({ navigation }) {
         <Text>No expenditure history available</Text>}
       </View>
       </View>
-      </View>
       <StatusBar style="auto" />
     </SafeAreaView>
   );
@@ -68,12 +66,12 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     marginTop: 2,
-    padding:9
+    padding:9,
   },
   historyContainer:{
-    marginVertical: 3,
     justifyContent:"space-between",
     alignItems:"center",
-    flexDirection:"row"
+    flexDirection:"row",
+    marginVertical:2
   }
 });

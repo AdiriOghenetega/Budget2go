@@ -21,10 +21,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tegaadiri.b2g"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f8046dff-64ea-419d-8843-2c8416ecd8d9"
+      }
+    },
+    "plugins": [
+      "sentry-expo"
+    ]
   }
 }

@@ -66,7 +66,7 @@ export default function HomeScreen({ navigation }) {
             />
           </View>
         </View>
-        <View>
+        <View >
           <Text
             style={{
               ...globalStyles.text,
@@ -109,6 +109,7 @@ const styles = StyleSheet.create({
     height: "100%",
     alignItems: "center",
     justifyContent: "space-between",
+    paddingBottom:15
   },
   updateBudgetContainer: {
     flexDirection: "row",

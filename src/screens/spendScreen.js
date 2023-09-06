@@ -135,11 +135,11 @@ const styles = StyleSheet.create({
     height: "100%",
     width: "100%",
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "space-between",
+    paddingBottom:15
   },
   firstSection: {
     width: "100%",
     alignItems: "center",
-    marginBottom: 15,
   },
 });
